@@ -1,0 +1,2 @@
+class Ting < ApplicationRecord
+end

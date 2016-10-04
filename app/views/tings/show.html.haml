@@ -1,0 +1,5 @@
+%h2= @ting.title
+%p= @ting.brief
+= link_to "Home", root_path
+= link_to "Edit", edit_ting_path
+= link_to "Delete",ting_path(@ting),method: :delete, data: {confirm: "Are you sure?"}
